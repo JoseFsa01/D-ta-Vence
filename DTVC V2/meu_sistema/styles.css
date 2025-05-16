@@ -1,0 +1,90 @@
+/* ESTILOS PRINCIPAIS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f2f2f2;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.filtro-checkbox {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.filtro-checkbox label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.filtro-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.acao a {
+    margin-right: 10px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.acao a:hover {
+    text-decoration: underline;
+}
+
+/* CORES DE VALIDADE - ESSENCIAIS */
+tr.validade-30 {
+    background-color: #ccffcc !important; /* Verde claro */
+}
+
+tr.validade-7 {
+    background-color: #ffffcc !important; /* Amarelo claro */
+}
+
+tr.validade-0 {
+    background-color: #ffcccc !important; /* Vermelho claro */
+}
+
+tr.fora-prazo {
+    background-color: #e6ccff !important; /* Roxo claro */
+}
